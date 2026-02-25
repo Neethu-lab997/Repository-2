@@ -1,18 +1,38 @@
-# 🌤️ Montreal Weather App (branch of Rep 1.)
 
-A simple web application that displays the current weather in Montreal using the OpenWeatherMap API.
+# DCT12M
 
-This project demonstrates basic API integration, JavaScript fetch requests, and frontend display of real-time data.
+## Introduction
+Door contacts are essential for home and business security systems, as they provide real-time monitoring of entry points, ensuring that any unauthorized access is immediately detected. It communicates with the Paradox M systems using 2-way wireless communication, featuring the latest Gaussian Frequency Shift Keying (GFSK) technology with frequency and encryption hopping. This ensures superior wireless range, enhanced encryption, supervision, and reliability. It is typically used to monitor the opening of doors and windows. DCT12M can support a magnet-activated wireless zone and an additional cabled zone input simultaneously. The additional wired zone can transmit the device’s status wirelessly. The wired input zone supports configurations with no EOL resistor, one EOL resistor, or two EOL resistors.
+
+## Quick Installation
+To install DCT12M:
+1.	Unscrew the device from the bottom, then open the sensor.
+2.	Fix the backplate and the magnet, ensuring proper alignment.
+3.	Connect the external wired zone with or without an EOL resistor.
+4.	Remove the battery tab and close the sensor.
+5.	Pair DCT12M with the console (Using the BlueEye application):
+•	Go to: Hardware > Tap Add Devices > Wireless Devices Auto learn/Scan QR code or add devices manually (by entering serial number).
+NOTE: You can instantly pair DCT12M by pressing the Learn button, or by opening the tamper or a zone.
+6.	Configure DCT12M (Using the BlueEye application):
+•	Go to: Hardware > Tap DCT12M from the device list > Enter the necessary details > Save.
+Built-in status indications of DCT12M:
+•	Red – DCT12M not connected to the wireless console
+•	Green – Magnet attached; zone closed
+•	Yellow – Magnet detached; zone open
+•	Red/Green – Tamper alarm activation
+
 
 ---
 
-## 📌 Features
+## 📌 Physical Mounting
 
-* Retrieves live weather data from OpenWeatherMap
-* Displays temperature, weather condition, and location
-* Uses metric units (°C)
-* Simple and clean user interface
-* Runs entirely in the browser
+NOTE: Installing the door contact on large metal surfaces may interfere with wireless signals and reduce performance.
+To mount the DCT12M door contact:
+1.	Unscrew the device from the bottom. 
+2.	Press the Opening Tab at the bottom of the device with a flat-head screwdriver and lift the front cover to remove it.
+3.	Fix the backplate on the wall with two screws. 
+NOTE: As per the EN security standards, one screw must be secured in the tamper hole. The use of double-sided tape does not trigger a wall tamper alarm.
+4.	Connect the external wired zone with or without an EOL resistor
 
 ---
 
