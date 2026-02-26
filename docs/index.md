@@ -1,8 +1,11 @@
 # My Documentation Site
 
-Welcome! This site contains installation, configuration, and troubleshooting guides.
+Welcome! This installation manual contains the following sections.
 
+## WV2M
+![Welcome banner](images/WV2M.png)
 ## Quick links
-- [Installation](installation.md)
-- [Configuration](configuration.md)
-- [Troubleshooting](troubleshooting.md)
+- [Introduction](introduction.md)
+- [Quick Installation](quick_installation.md)
+- [Components](componenets.md)
+- [Physical Mounting](physical_mounting.md)

@@ -1,7 +1,11 @@
-site_name: My Docs Site - Version1
+site_name: WV2M Installation Manual
+
+theme:
+  name: rtd-dropdown
 
 nav:
   - Home: index.md
-  - Installation: installation.md
-  - Configuration: configuration.md
-  - Troubleshooting: troubleshooting.md
+  - Introduction: introduction.md
+  - Quick Installation: quick_installation.md
+  - Components: components.md
+  - Physical Mounting: physical_mounting.md
