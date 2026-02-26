@@ -1,4 +1,5 @@
-site_name: My Docs Site
+site_name: My Docs Site - Version1
+
 nav:
   - Home: index.md
   - Installation: installation.md
