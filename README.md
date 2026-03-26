@@ -1,5 +1,5 @@
 
-# DCT12M
+# A sample API document requirement
 
 ## Introduction
 Door contacts are essential for home and business security systems, as they provide real-time monitoring of entry points, ensuring that any unauthorized access is immediately detected. It communicates with the Paradox M systems using 2-way wireless communication, featuring the latest Gaussian Frequency Shift Keying (GFSK) technology with frequency and encryption hopping. This ensures superior wireless range, enhanced encryption, supervision, and reliability. It is typically used to monitor the opening of doors and windows. DCT12M can support a magnet-activated wireless zone and an additional cabled zone input simultaneously. The additional wired zone can transmit the device’s status wirelessly. The wired input zone supports configurations with no EOL resistor, one EOL resistor, or two EOL resistors.
