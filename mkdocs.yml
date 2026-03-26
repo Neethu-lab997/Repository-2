@@ -1,6 +1,24 @@
-site_name: My Docs Site
+site_name: WV2M Installation Manual
+
+theme:
+  name: rtd-dropdown
+
 nav:
   - Home: index.md
-  - Installation: installation.md
-  - Configuration: configuration.md
-  - Troubleshooting: troubleshooting.md
+  - Introduction: introduction.md
+  - Quick Installation: quick_installation.md
+  - Components: components.md
+  - Physical Mounting: physical_mounting.md
+  - Pairing WV2M with the Wireless M Console: pairing.md
+  - Configuring the WV2M: configuring.md
+  - Manual Override: manual_override.md
+  - Replacing Battery: replacing_battery.md
+  - LED Indications: led_indications.md
+  - Resetting: resetting.md
+  - Upgrading Firmware: upgrading_firmware.md
+  - Technical Specifications: tech_spec.md
+
+markdown_extensions:
+ - admonition 
+ - pymdownx.details
+ - pymdownx.superfences
