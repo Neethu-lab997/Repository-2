@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Pairing WV2M with the Wireless M Console - WV2M Installation Manual</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Pairing WV2M with the Wireless M Console";
+    var mkdocs_page_input_path = "pairing.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> WV2M Installation Manual</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="tocbase current">
+    
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="..">Home</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../introduction/">Introduction</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../quick_installation/">Quick Installation</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../components/">Components</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../physical_mounting/">Physical Mounting</a>
+  </li>
+    
+      
+
+
+  
+    
+    <li class="navtree toctree-l1 page current">
+      <a class="current" href="./">
+        Pairing WV2M with the Wireless M Console
+      </a>
+    </li>
+    
+      
+
+
+
+  <li class="toctree-l1 current">
+    <ul class="subnav-l1 current">
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#prerequisites">Prerequisites</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#pairing-wv2m">Pairing WV2M</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#instant-pairing">Instant Pairing</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#pairing-previously-used-devices">Pairing Previously Used Devices</a>
+        </li>
+    
+      
+        <li class="toctree-l2">
+          <a class="toctree-l3" href="#pairing-after-deleting-the-device-from-the-blueeye-application">Pairing After Deleting the Device from the BlueEye Application</a>
+        </li>
+    
+    </ul>
+  </li>
+
+
+  
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../configuring/">Configuring the WV2M</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../manual_override/">Manual Override</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../replacing_battery/">Replacing Battery</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../led_indications/">LED Indications</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../resetting/">Resetting</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../upgrading_firmware/">Upgrading Firmware</a>
+  </li>
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="../tech_spec/">Technical Specifications</a>
+  </li>
+    
+  </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">WV2M Installation Manual</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Pairing WV2M with the Wireless M Console</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="pairing-wv2m-with-the-wireless-m-console">Pairing WV2M with the Wireless M Console</h1>
+<p>The pairing and configuration settings of WV2M are managed through the BlueEye application.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Ensure that:</p>
+<ol>
+<li>The WV2M is within the range of the console.</li>
+<li>The BlueEye application is installed on your mobile and connected to the site.</li>
+<li>The M console is powered on (Paradox logo color - white, red, or green). </li>
+</ol>
+<h2 id="pairing-wv2m">Pairing WV2M</h2>
+<p>To pair the WV2M with the wireless console, by an installer:</p>
+<ol>
+<li>When in the Hardware tab, tap Add Devices, and then tap Wireless Devices Auto learn.
+    <br> The wireless console searches for new devices and a rotating radar icon is displayed. All unpaired devices pair within 6 minutes and appear at the top of the device list with a new tag and voice announcements.
+    The LED flashes blue until it is paired with the console or for a maximum duration of one minute (for battery saving).  </li>
+</ol>
+<h2 id="instant-pairing">Instant Pairing</h2>
+<p>After tapping Wireless Devices Auto learn, bring a magnet near the top of the Valve Driver and move it away. </p>
+<pre><code>!!! NOTE:
+    When pairing is successful, the LED flashes green five times (within up to 10 seconds) to confirm pairing with the console.
+</code></pre>
+<h2 id="pairing-previously-used-devices">Pairing Previously Used Devices</h2>
+<p>You can pair used devices under the following conditions:</p>
+<ul>
+<li>When the previously used device is not online with another wireless console: Start Auto learn. Bring the magnet closer to the product and then move away for instant pairing.</li>
+<li>When the previously used device is online with another wireless console: Delete the device, reset it, and then initiate Auto learn. To reset the device, see the [Resetting] (resetting.md) section in this manual. </li>
+</ul>
+<h2 id="pairing-after-deleting-the-device-from-the-blueeye-application">Pairing After Deleting the Device from the BlueEye Application</h2>
+<p>After deleting the device from the BlueEye application, do one of the following to pair it again:
+- Reset the device and then pair it using Instant Pairing or Auto learn.
+- Wait for up to 10 minutes, and then pair it using Instant Pairing or Auto learn.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../configuring/" class="btn btn-neutral float-right" title="Configuring the WV2M">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../physical_mounting/" class="btn btn-neutral" title="Physical Mounting"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../physical_mounting/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../configuring/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
