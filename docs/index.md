@@ -1,6 +1,6 @@
 # WV2M Installation Manual
 
-Welcome! This installation manual contains the following sections.
+Welcome! This installation manual includes the following sections.
 
 - [Introduction](introduction.md)
 - [Quick Installation](quick_installation.md)
@@ -17,3 +17,21 @@ Welcome! This installation manual contains the following sections.
 
 ![Welcome banner](images/intro.png)
 
+## What this project demonstrates
+
+- Documentation written in Markdown  
+- Docs-as-code workflow using Git and GitHub  
+- Static site generation using MkDocs  
+- Documentation site publishing using GitHub Pages 
+
+## Sample Documentation
+
+- Installation Guide
+
+## Tools Used
+
+- MkDocs
+- Material for MkDocs
+- Markdown
+- GitHub Pages
+- VS Code
