@@ -14,7 +14,7 @@ Ensure that:
 
 To pair the WV2M with the wireless console, by an installer:
 
-1.	When in the Hardware tab, tap Add Devices, and then tap Wireless Devices Auto learn.
+1.	When in the Hardware tab, tap **Add Devices**, and then tap **Wireless Devices Auto learn**.
     <br> The wireless console searches for new devices and a rotating radar icon is displayed. All unpaired devices pair within 6 minutes and appear at the top of the device list with a new tag and voice announcements.
     The LED flashes blue until it is paired with the console or for a maximum duration of one minute (for battery saving).  
 
@@ -22,8 +22,8 @@ To pair the WV2M with the wireless console, by an installer:
 
 After tapping Wireless Devices Auto learn, bring a magnet near the top of the Valve Driver and move it away. 
 
-    !!! NOTE:
-        When pairing is successful, the LED flashes green five times (within up to 10 seconds) to confirm pairing with the console.
+!!! note
+    When pairing is successful, the LED flashes green five times (within up to 10 seconds) to confirm pairing with the console.
 
 ## Pairing Previously Used Devices  
 

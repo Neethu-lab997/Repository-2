@@ -1,7 +1,8 @@
 # WV2M Installation Manual
 
-Welcome! This installation manual contains the following sections.
+Welcome! This installation manual includes the following sections.
 
+- [Project Overview](project_overview.md)
 - [Introduction](introduction.md)
 - [Quick Installation](quick_installation.md)
 - [Components](components.md)
@@ -16,4 +17,3 @@ Welcome! This installation manual contains the following sections.
 - [Technical Specifications](tech_spec.md)
 
 ![Welcome banner](images/intro.png)
-

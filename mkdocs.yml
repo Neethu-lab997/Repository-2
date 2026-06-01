@@ -1,10 +1,18 @@
 site_name: WV2M Installation Manual
 
 theme:
-  name: rtd-dropdown
+  name: material
+  features:
+      - navigation.sections
+      - navigation.expand
+      - navigation.top
+      - search.suggest
+      - search.highlight
+      - content.code.copy 
 
 nav:
   - Home: index.md
+  - Project Overview: project_overview.md
   - Introduction: introduction.md
   - Quick Installation: quick_installation.md
   - Components: components.md
@@ -20,5 +28,6 @@ nav:
 
 markdown_extensions:
  - admonition 
+ - attr_list
  - pymdownx.details
  - pymdownx.superfences
