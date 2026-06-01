@@ -12,6 +12,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Project Overview: project_overview.md
   - Introduction: introduction.md
   - Quick Installation: quick_installation.md
   - Components: components.md

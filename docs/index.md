@@ -2,6 +2,7 @@
 
 Welcome! This installation manual includes the following sections.
 
+- [Project Overview](project_overview.md)
 - [Introduction](introduction.md)
 - [Quick Installation](quick_installation.md)
 - [Components](components.md)
@@ -16,22 +17,3 @@ Welcome! This installation manual includes the following sections.
 - [Technical Specifications](tech_spec.md)
 
 ![Welcome banner](images/intro.png)
-
-## What this project demonstrates
-
-- Documentation written in Markdown  
-- Docs-as-code workflow using Git and GitHub  
-- Static site generation using MkDocs  
-- Documentation site publishing using GitHub Pages 
-
-## Sample Documentation
-
-- Installation Guide
-
-## Tools Used
-
-- MkDocs
-- Material for MkDocs
-- Markdown
-- GitHub Pages
-- VS Code
