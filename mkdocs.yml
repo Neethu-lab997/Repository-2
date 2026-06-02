@@ -12,6 +12,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Project Overview: project_overview.md
   - Introduction: introduction.md
   - Quick Installation: quick_installation.md
   - Components: components.md
@@ -30,3 +31,6 @@ markdown_extensions:
  - attr_list
  - pymdownx.details
  - pymdownx.superfences
+
+plugins:
+  - search

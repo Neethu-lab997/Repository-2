@@ -7,7 +7,7 @@ To configure the WV2M settings:
     For details see the following table.
 
 | Parameter | Description |
-|-----------|--------------|
+|:-----------|:--------------|
 |**Device Details**         |Enter a name for the zone.    |
 |**Valve Output Number**   |Assign a number to the valve.      |
 |**Power Up State** |  Select the default state of the valve: <br>- Open <br>- Close<br>- No Change|
